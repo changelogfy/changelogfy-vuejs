@@ -1,0 +1,23 @@
+{
+  "name": "changelogfy-vuejs",
+  "version": "1.0.0",
+  "description": "Changelogfy is a Software and Product Release Notes Tool",
+  "repository": "https://github.com/changelogfy/changelogfy-vuejs",
+  "main": "src/index.js",
+  "keywords": [
+    "changelogfy",
+    "changelog",
+    "vue"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Changelogfy",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}

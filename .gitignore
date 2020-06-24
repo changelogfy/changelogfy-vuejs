@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+
+# Only keep yarn.lock in the root
+package-lock.json
+*/**/yarn.lock
+
+# Logs
+*.log
+
+# Dist folders
+dist
+
+# Intellij idea
+*.iml
+.idea
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
