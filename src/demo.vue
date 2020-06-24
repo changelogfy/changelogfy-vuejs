@@ -2,7 +2,7 @@
   <div>
     <a href="#" class="changelogfy-icon" v-on:click="open">
       Open
-      <Changelogfy app-id="af12f992-0a0c-4cdf-8144-89af158c39e2" selector=".changelogfy-icon" />
+      <Changelogfy app-id="2c8cda95-51e2-4b56-b616-ca9ffde09f5b" selector=".changelogfy-icon" />
     </a>
   </div>
 </template>
