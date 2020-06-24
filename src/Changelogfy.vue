@@ -43,17 +43,12 @@ export default {
 
     this.$nextTick(() => {
       /*global changelogfy*/
-
       changelogfy.destroy();
       changelogfy.init({
         selector: this.selector,
         app_id: this.appId
       });
     });
-  },
-  methods: {
-    open() {},
-    close() {}
   }
 };
 </script>
