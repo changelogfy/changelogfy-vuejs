@@ -1,6 +1,6 @@
 {
   "name": "changelogfy-vuejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Changelogfy is a Software and Product Release Notes Tool",
   "repository": "https://github.com/changelogfy/changelogfy-vuejs",
   "main": "src/Changelogfy",

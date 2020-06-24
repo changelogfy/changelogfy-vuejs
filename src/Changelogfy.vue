@@ -19,7 +19,22 @@ export default {
       required: false,
       default: true
     },
-    user: {
+    userId: {
+      type: String,
+      required: false,
+      default: null
+    },
+    userName: {
+      type: String,
+      required: false,
+      default: null
+    },
+    userEmail: {
+      type: String,
+      required: false,
+      default: null
+    },
+    customData: {
       type: Object,
       required: false,
       default: null
@@ -46,7 +61,14 @@ export default {
       changelogfy.destroy();
       changelogfy.init({
         selector: this.selector,
-        app_id: this.appId
+        app_id: this.appId,
+        init_badge: this.initBadge,
+        data: {
+          user_id: this.userId,
+          user_name: this.userName,
+          user_email: this.userEmail,
+          custom_data: this.customData
+        }
       });
     });
   }
