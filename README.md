@@ -7,5 +7,5 @@ This is a package for use simplified of [Changelogfy](https://changelogfy.com) w
 ## Installation
 
 ```sh
-npm install changelogfy-vue
+npm i changelogfy-vuejs
 ```
