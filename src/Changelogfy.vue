@@ -34,6 +34,11 @@ export default {
       required: false,
       default: null
     },
+    isFollowing: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
     customData: {
       type: Object,
       required: false,
@@ -67,6 +72,7 @@ export default {
           user_id: this.userId,
           user_name: this.userName,
           user_email: this.userEmail,
+          is_following: this.isFollowing,
           custom_data: this.customData
         }
       });

@@ -8,6 +8,7 @@
         user-id="123"
         user-name="Paulo Castellano"
         user-email="paulo@changelogfy.com"
+        :is-following="false"
         :custom-data="{
             'Job_Role': 'CEO',
             'Plan': 'Pro',
